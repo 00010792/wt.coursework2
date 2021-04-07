@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "private": true,
   "scripts": {
-    "start": "node./bin/www",
+    "start": "node ./bin/www",
     "start:unix": "NODE_ENV=production npm run style && npm run tailwind:css:prod && node ./bin/www",
     "start:win32": "set NODE_ENV=production && npm run style && npm run tailwind:css:prod &&node ./bin/www",
     "dev": "npm run style && npm run tailwind:css && nodemon ./bin/www",
