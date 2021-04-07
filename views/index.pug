@@ -38,6 +38,12 @@ block content
                         href=`todo/${todo.id}/delete`,
                         class="hover:text-indigo-900"
                       ) Delete
+    .flex.flex-wrap.rounded-md.mt-8.justify-end
+      a.inline-flex.items-center.justify-center.px-5.py-3.border.border-transparent.text-base.font-medium.rounded-md.text-white.bg-indigo-600(
+        href="/new",
+        class="hover:bg-indigo-700"
+      )
+        | Create a new one
   else
     .bg-gray-50.rounded-md
       .max-w-7xl.mx-auto.py-12.px-4(
